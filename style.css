@@ -717,13 +717,13 @@ section {
 
 @keyframes typing {
   from { width: 0; }
-  to { width: 18ch; } /* Adjust width according to text length */
+  to { width: 18ch; } 
 }
 
 @keyframes blink {
   50% { border-color: transparent; }
 }
-/* ===== Responsive Navbar ===== */
+
 #menu-icon {
   font-size: 3rem;
   color: var(--text-color);
@@ -731,8 +731,6 @@ section {
   display: none;
   z-index: 101;
 }
-
-/* For tablet & mobile */
 @media (max-width: 991px) {
   #menu-icon {
     display: block;
@@ -756,13 +754,9 @@ section {
     margin: 1.5rem 0;
     font-size: 2rem;
   }
-
-  /* When active */
   .navbar.active {
     left: 0;
-  }
-
-  
+  }  
   .header {
     flex-wrap: wrap;
   }
